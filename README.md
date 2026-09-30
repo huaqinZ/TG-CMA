@@ -2,7 +2,7 @@
 
 This repository contains code to reproduce results from the paper:
 
-rajectory-Guided Cross-Modal Adversarial Attacks with Neighborhood Gradient Estimation.
+Trajectory-Guided Cross-Modal Adversarial Attacks with Neighborhood Gradient Estimation.
 
 ## Requirements
 

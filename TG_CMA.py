@@ -9,7 +9,7 @@ import random
 import time
 import math
 
-
+aa
 class Attacker():
     def __init__(self, model, img_attacker, txt_attacker):
         self.model = model

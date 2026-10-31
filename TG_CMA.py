@@ -212,7 +212,7 @@ class ImageAttacker():
         base_grad = _calculate_single_grad(adv_imgs.detach().clone())
         nge_grads = [base_grad]
         bound = self.eps * self.nge_beta
-        for _ in range(self.nge_num_samples - 1):
+        for _ in range(self.nge_num_samples):
             neighbor_imgs = adv_imgs.detach() + torch.randn_like(adv_imgs) * bound
             neighbor_imgs.clamp_(0.0, 1.0)
             neighbor_grad = _calculate_single_grad(neighbor_imgs)
